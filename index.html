@@ -1,1 +1,379 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shunqing Li</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/waypoints.min.js"></script>
+
+</head>
+
+<body>
+  color: #0cd6d6;
+  <nav id="navbar-scrolltarget"class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll" style="background-color: #09e1e1;">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: black;">Shunqing Li</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#bigVideo" style="color: black;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: black;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill"style="color: black;" >Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work"style="color: black;" >Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" style="color: black;">Strengths</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" style="color: black;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: black;">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/feed/" style="color: black;">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div data-spy="scroll" data-target="#navbar-scrolltarget" data-offset="0" style="border: 2px solid green"></div>
+
+
+    <section class="bgVideo" id="home">
+        <div class="container-fluid">
+            <video autoplay muted loop id="myVideo">
+                <source src="images/ocean bg.mp4" media="screen and (min-width:800px)" type="video/mp4">
+            </video>
+
+            <div class="row row-container">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="my_title">I am</h2>
+                    <div class="stack">
+                        <span>Shun Li</span>
+                    </div>
+                        <p class="my_desc">A Software Engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/SQL.jpg" class= "imageAboutPage" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <p>
+                        Graduate student at Northeastern University
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Major: Information Systems</li>
+                                <li>Natonality: China</li>
+                        
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Work experience: 3 years</li>
+                                <li>Location: Boston, MA</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row mt-3">
+                        <p>
+                            My strengths are programming and data analyze.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skill">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="col-lg-4">
+                <img src="images/about-me.gif" class= "imageSkillsPage" alt="">
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width:95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div> 
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar"  style="width:80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Java</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar"  style="width:90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar"  style="width:50%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C++</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar"  style="width:60%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar"  style="width:55%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+    <section id="work">
+        <div class="container mb-4">
+            <h1 class="text-center">Education</h1>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>             
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/Northeastern.png" class="d-block w-100" alt="mysql">
+                      <div class="carousel-caption d-none d-md-block">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/Purdue.png" class="d-block w-100" alt="java">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5 style="font-size:30px;font-weight:bold; color: rgb(248, 248, 248);"></h5>
+                      </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container mb-4" style = "padding-top: 20px;margin-top: 20px">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Northeastern University
+                            </button>
+                          </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> Information Systems </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Purdue University 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Computer and Information Technology </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Strengths</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Time Management</h4>
+                            <p class="card-text mt-3">Good at keeping schedule
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Team Working</h4>
+                            <p class="card-text mt-3">
+                                Good at collaborating with coworkers and offer leadership
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Problem Solving</h4>
+                            <p class="card-text mt-3">
+                                Good at identifying problems and solving them
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/stock market.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Stock Analysis</h4>
+                            <p class="card-text">Analyzed JNJ stock for price prediction and policy choosing</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/bankruptcy.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Company Bankruptcy Prediction</h4>
+                            <p class="card-text">Implemented machine learning methods to predict bankruptcy prossibilities</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/project mgmt.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Project Management</h4>
+                            <p class="card-text">Performed as project manager in acedemic projects</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> 
+
+
+    <section id="contact">
+        <div class="container">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <button type="button" class="btn btn-primary position-relative">
+                        Visits
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          ...
+                          <span class="visually-hidden">Visits</span>
+                        </span>
+                    </button>
+
+                    <div class="map" style="max-width:100%;list-style:none;color:red; transition: none;overflow:hidden;width:500px;height:500px;">
+                        <div id="mymap-display" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Northeastern+University&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                       
+                        <style>#mymap-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form class = "mb-3">
+                        <input type="text" class="form-control form-control-lg mt-3" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button class ="mb-3 btn btn-success" type="button" data-toggle="tooltip" data-placement="bottom"  >Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="social-icons mt-4">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
